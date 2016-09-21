@@ -14,14 +14,12 @@ var app = angular.module('app', []);
 		//INSERT NEW USER
 		//UPDATE user existing
 		$scope.insertdata = function(){
-			//console.log($scope.active);
-			console.log($scope.iduser);
-			$scope.fname 	= null;
-			$scope.lname 	= null;
-			$scope.iduser	= null;
 			$http.post("insert_user", {'id':$scope.iduser,'FName':$scope.fname, 'LName':$scope.lname, 'isActive':$scope.active, 'btnName':$scope.btnName}).success(function(){
 				$scope.getUser();
 			});
+			scope.fname 	= null;
+			$scope.lname 	= null;
+			$scope.iduser	= null;
 		};
 
 		//DELETE a user
