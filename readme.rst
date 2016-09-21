@@ -68,3 +68,14 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+*******************
+My work Information
+*******************
+
+You need to create your database with the table. 
+in application/config/database.php 
+The angular file is in js/app.js
+in application/controllers/welcome.php you will find the REST api
+
+I hope this will help you :) 
