@@ -19,4 +19,6 @@ In application/config/database.php
 The angular file is in js/app.js
 in application/controllers/welcome.php you will find the REST api
 
+If you want to try it. go to on your localhost : localhost/your_repository_name/index.php/welcome/show_name
+
 I hope this will help you :) 
