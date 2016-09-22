@@ -15,8 +15,8 @@ My work Information
 *******************
 
  You need to create your database with the provided table. I put on this codeigniter.sql to create the database with table to test
-The application's Angular main file is located in js/app.js. Y
-ou'll  find the REST api in this file : application/controllers/welcome.php                  
+The application's Angular main file is located in js/app.js. 
+You'll  find the REST api in this file : application/controllers/welcome.php                  
 
 If you want to try it,  go to on your localhost : localhost/your_repository_name/index.php/welcome/show_name
 
