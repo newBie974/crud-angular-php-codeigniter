@@ -14,8 +14,8 @@ for a given task.
 My work Information
 *******************
 
-You need to create your database with the table. 
-in application/config/database.php 
+You need to create your database with the table. I put on this codeigniter.sql to create the database with table to test
+In application/config/database.php 
 The angular file is in js/app.js
 in application/controllers/welcome.php you will find the REST api
 
